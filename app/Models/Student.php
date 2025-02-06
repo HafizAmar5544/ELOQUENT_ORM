@@ -13,7 +13,6 @@ class Student extends Model
         'email',
         'password',
         'dob',
-        'city',
         'address',
         'subjects', 
     ];
