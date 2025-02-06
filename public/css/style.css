@@ -1,0 +1,71 @@
+
+        body {
+            background-color: #f9fafb;
+            font-family: 'Arial', sans-serif;
+        }
+         .container{display: flex; justify-content: center;}
+        .card {
+            border-radius: 1rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            width:50vw;
+        }
+        h2 {
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+        .form-label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .btn-primary, .btn-success, .btn-danger {
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .b_success {
+            background-color:   #4caf50;
+            border: none; color:white;
+        }
+
+        .b_success:hover {
+            background-color:   #4caf50;
+            transform: scale(1.05); color:white;
+        }
+
+        .btn-success, .btn-danger {
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            border-radius: 50%;
+            font-size: 18px;
+            line-height: 38px;
+        }
+
+        .addSubject, .removeSubject {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .input-group .form-control {
+            border-radius: 0.5rem;
+        }
+
+        .input-group .btn {
+            border-radius: 0.5rem;
+        }
+
+        .text-muted {
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+
+        .alert-success {
+            font-size: 1rem;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+    
